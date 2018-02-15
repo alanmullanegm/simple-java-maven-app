@@ -21,6 +21,7 @@
       <id>java</id>
     </server>
   </servers>
+  <mirrors>
     <mirror>
       <mirrorOf>*</mirrorOf>
       <name>java</name>
