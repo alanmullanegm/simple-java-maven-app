@@ -5,3 +5,5 @@ ARG -v=/root/.m2:/root/.m2
 ENV http_proxy="http://10.81.68.10:8080/" \
     https_proxy="http://10.81.68.10:8080/"
 
+COPY settings.xml /usr/share/maven/ref/
+

@@ -1,0 +1,31 @@
+<settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <proxies>
+        <proxy>
+            <id>gm-proxy</id>
+            <active>true</active>
+            <protocol>http</protocol>
+            <host>naproxy.gm.com</host>
+            <port>80</port>
+            <username>nzy2y2</username>
+            <password>{L6KyHKhrBAcHgEqDhsNbWXo1D3n04yWlR55PmhuhhGw=}</password>
+            <nonProxyHosts>localhost|127.0.0.1|*.gm.com|gm.com</nonProxyHosts>
+        </proxy>
+    </proxies>
+  <servers>
+    <server>
+      <username>nzy2y2</username>
+      <!-- <password>${security.getEscapedEncryptedPassword()}</password> -->
+      <password>{L6KyHKhrBAcHgEqDhsNbWXo1D3n04yWlR55PmhuhhGw=}</password>
+      <id>java</id>
+    </server>
+  </servers>
+    <mirror>
+      <mirrorOf>*</mirrorOf>
+      <name>java</name>
+      <url>https://artifactory.gm.com/artifactory/java</url>
+      <id>java</id>
+    </mirror>
+  </mirrors>
+</settings>
